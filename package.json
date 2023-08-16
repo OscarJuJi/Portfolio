@@ -1,13 +1,13 @@
 {
   "name": "educator-js-codespace-template",
   "version": "1.0.0",
-  "description": "Educator JS Codespace Template",
+  "description": "A digital Portfolio",
   "source": "src/index.html",
-  "homepage": "http://OscarJuJi.github.io/Portafolio",
+  "homepage": "http://OscarJuJi.github.io/Portfolio",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://OscarJuJi.github.io/Portafolio'",
+    "build-gh": "parcel build --public-url 'https://OscarJuJi.github.io/Portfolio'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
