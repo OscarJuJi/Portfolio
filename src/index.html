@@ -13,6 +13,17 @@
     <div id="app">
       <!-- Your react app will be rendered here -->
     </div>
+    
     <script type="module" src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="Text_typing_animation.js"></script>
+    <script>
+      $(function() {
+      $('.scroll-down').click (function() {
+      $('html, body').animate({scrollTop: $('section.about').offset().top }, 'slow');
+      return false;
+      });
+      });
+      </script>
   </body>
 </html>
