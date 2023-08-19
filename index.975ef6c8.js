@@ -27171,19 +27171,10 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 /**
  * About component
- *
- * Space for you to describe more about yourself.
  */ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 /**
  * About background image
- *
- * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
- * represents what you see in that image.
- *
- * Need an image? Check out https://unsplash.com to download a image you
- * freely use on your site.
  */ var _motionBackgroundJpg = require("../images/motion-background.jpg");
 var _motionBackgroundJpgDefault = parcelHelpers.interopDefault(_motionBackgroundJpg);
 const imageAltText = "purple and blue abstract background";
@@ -27191,21 +27182,31 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */ const description = "I'm a Artificial intelligence engineering student. I enjoy e creating automated learning systems with versatile practical applications, Additionally, I strive to learn more about artificial intelligence, particularly within the world of technology, to expand my expertise.";
 /**
- * List of some of skills or technologies you work on, are learning,
+ * List of some of skills or technologies I work on, are learning,
  * passionate about, or enjoy,
  */ const skillsList = [
     "Web design",
-    "User experience",
-    "Inclusive design",
-    "Focus group testing",
-    "Mobile user interfaces",
-    "Graphic design", 
+    "Machine Learnning",
+    "Deep Learnning",
+    "Data Science",
+    "Computer Vision & Image Processing",
+    "Azure ML & Cognitive Services",
+    "Oracle SQL",
+    "Virtual Environments",
+    "API-REST Consumption",
+    "Version Control (GitHub)",
+    "Repository Management",
+    "React",
+    "Node.js & AJAX",
+    "Anaconda",
+    "Python",
+    "Java",
+    "C++",
+    "C#",
+    "Matlab",
+    "HTML, CSS & JS", 
 ];
-/**
- * Use this to give more information about what you are passionate about,
- * how you best work, or even a quote. This will help someone learn more
- * about you on a professional level.
- */ const detailOrQuote = "I am passionate about solving problems in new Creatively and efficiently ways. I always seek challenges and opportunities that allow me to enhance my skills and knowledge in the field of artificial intelligence, in order to further enrich my professional experience.";
+const detailOrQuote = "I am passionate about solving problems in new Creatively and efficiently ways. I always seek challenges and opportunities that allow me to enhance my skills and knowledge in the field of artificial intelligence, in order to further enrich my professional experience.";
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
@@ -28645,14 +28646,16 @@ const Home = ({ name , title  })=>{
                     position: "absolute",
                     top: "5rem",
                     left: "2rem",
-                    width: "50rem",
-                    color: "rgb(195,195, 195)"
+                    width: "90vw",
+                    textAlign: "right",
+                    color: "rgb(145,205, 145)"
                 },
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                         style: {
-                            marginBottom: "4rem"
+                            marginBottom: "3rem"
                         },
+                        className: "word",
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
@@ -28678,13 +28681,20 @@ const Home = ({ name , title  })=>{
                     bottom: "3rem",
                     left: "50%"
                 },
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: (0, _downArrowSvgDefault.default),
-                    style: {
-                        height: "3rem",
-                        width: "3rem"
-                    },
-                    alt: imageAltText
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                    href: "#about",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: (0, _downArrowSvgDefault.default),
+                        style: {
+                            height: "3rem",
+                            width: "3rem"
+                        },
+                        alt: imageAltText
+                    }, void 0, false, {
+                        fileName: "src/Components/Home.jsx",
+                        lineNumber: 31,
+                        columnNumber: 9
+                    }, undefined)
                 }, void 0, false, {
                     fileName: "src/Components/Home.jsx",
                     lineNumber: 30,
@@ -28923,10 +28933,9 @@ const projectList = [
         description: "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught."
     }, 
 ];
-const Education = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
-        id: "portfolio",
+        id: "education",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
@@ -28934,18 +28943,18 @@ const Education = ()=>{
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/Education.jsx",
-                lineNumber: 28,
-                columnNumber: 17
+                lineNumber: 27,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                 style: {
                     textAlign: "center"
                 },
-                children: "Portfolio"
+                children: "Education"
             }, void 0, false, {
                 fileName: "src/Components/Education.jsx",
-                lineNumber: 29,
-                columnNumber: 9
+                lineNumber: 28,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 style: {
@@ -28958,56 +28967,46 @@ const Education = ()=>{
                     children: projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "box",
                             children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                    href: project.url,
-                                    target: "_blank",
-                                    rel: "noopener noreferrer",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                        style: {
-                                            flexBasis: "40px"
-                                        },
-                                        children: project.title
-                                    }, void 0, false, {
-                                        fileName: "src/Components/Education.jsx",
-                                        lineNumber: 37,
-                                        columnNumber: 19
-                                    }, undefined)
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                    style: {
+                                        flexBasis: "40px"
+                                    },
+                                    children: project.title
                                 }, void 0, false, {
                                     fileName: "src/Components/Education.jsx",
-                                    lineNumber: 36,
-                                    columnNumber: 17
+                                    lineNumber: 34,
+                                    columnNumber: 15
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                     className: "small",
                                     children: project.description
                                 }, void 0, false, {
                                     fileName: "src/Components/Education.jsx",
-                                    lineNumber: 39,
-                                    columnNumber: 17
+                                    lineNumber: 35,
+                                    columnNumber: 15
                                 }, undefined)
                             ]
                         }, project.title, true, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 35,
-                            columnNumber: 15
+                            lineNumber: 32,
+                            columnNumber: 13
                         }, undefined))
                 }, void 0, false, {
                     fileName: "src/Components/Education.jsx",
-                    lineNumber: 33,
-                    columnNumber: 11
+                    lineNumber: 30,
+                    columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Education.jsx",
-                lineNumber: 31,
-                columnNumber: 9
+                lineNumber: 29,
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Education.jsx",
-        lineNumber: 27,
-        columnNumber: 7
+        lineNumber: 26,
+        columnNumber: 5
     }, undefined);
-};
 _c = Education;
 exports.default = Education;
 var _c;
