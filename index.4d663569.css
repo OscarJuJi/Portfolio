@@ -1,5 +1,5 @@
 @import "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap";
-html, body {
+body {
   height: 100%;
   width: 100%;
   margin: 0;
@@ -120,6 +120,71 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+.demo a {
+  z-index: 2;
+  color: #c0b8a6;
+  letter-spacing: .1em;
+  font: 400 20px / 1 Josefin Sans, sans-serif;
+  text-decoration: none;
+  transition: opacity .3s;
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(0, -50%);
+}
+
+.demo a:hover {
+  opacity: .5;
+}
+
+#section07 a {
+  padding-top: 80px;
+}
+
+#section07 a span {
+  width: 24px;
+  height: 24px;
+  opacity: 0;
+  box-sizing: border-box;
+  border-bottom: 8px solid #91cd91;
+  border-left: 8px solid #91cd91;
+  margin-left: -12px;
+  animation: sdb07 2s infinite;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: rotate(-45deg);
+}
+
+#section07 a span:nth-of-type(1) {
+  animation-delay: 0s;
+}
+
+#section07 a span:nth-of-type(2) {
+  animation-delay: .15s;
+  top: 16px;
+}
+
+#section07 a span:nth-of-type(3) {
+  animation-delay: .3s;
+  top: 32px;
+}
+
+@keyframes sdb07 {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
