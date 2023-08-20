@@ -8,9 +8,11 @@ import React from "react";
  * About background image
  */
 import image from "../images/motion-background.jpg";
+import arrowSvg from "../images/down-arrow.svg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText_back = "purple and blue abstract background";
 
+const imageAltText = "Scroll-down button";
 /**
  * Sort description that expands on your title on the Home component.
  */
@@ -50,7 +52,6 @@ const detailOrQuote =
 const About = () => {
   return (
     <section className="padding" id="about">
-      <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
           backgroundColor: "white",
@@ -58,8 +59,10 @@ const About = () => {
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
+          zIndex: 0,
         }}
       >
+        <img className="background" src={image} alt={imageAltText_back} />
         <h2>About Myself</h2>
         <p className="large">{description}</p>
         <hr />
@@ -78,6 +81,9 @@ const About = () => {
         </ul>
         <hr />
         <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+      </div>
+      <div id="section07" className="demo" style={{ position: 'absolute', bottom: '-3rem', left: '50%', transform: 'translateX(-50%)', zIndex: 1 }}>
+        <a href="#education"><span></span><span></span><span></span></a>
       </div>
     </section>
   );
