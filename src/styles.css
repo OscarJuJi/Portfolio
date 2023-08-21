@@ -126,7 +126,7 @@ img.socialIcon {
   width: 30px;
 }
 
-.demo a {
+.S_D_B_S_C a {
   position: absolute;
   bottom: 20px;
   left: 50%;
@@ -140,13 +140,13 @@ img.socialIcon {
   text-decoration: none;
   transition: opacity .3s;
 }
-.demo a:hover {
+.S_D_B_S_C a:hover {
   opacity: .5;
 }
-#section07 a {
+#Scroll_Down_B_S a {
   padding-top: 80px;
 }
-#section07 a span {
+#Scroll_Down_B_S a span {
   position: absolute;
   top: 0;
   left: 50%;
@@ -162,16 +162,16 @@ img.socialIcon {
   opacity: 0;
   box-sizing: border-box;
 }
-#section07 a span:nth-of-type(1) {
+#Scroll_Down_B_S a span:nth-of-type(1) {
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
 }
-#section07 a span:nth-of-type(2) {
+#Scroll_Down_B_S a span:nth-of-type(2) {
   top: 16px;
   -webkit-animation-delay: .15s;
   animation-delay: .15s;
 }
-#section07 a span:nth-of-type(3) {
+#Scroll_Down_B_S a span:nth-of-type(3) {
   top: 32px;
   -webkit-animation-delay: .3s;
   animation-delay: .3s;

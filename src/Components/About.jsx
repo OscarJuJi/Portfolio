@@ -17,7 +17,7 @@ const imageAltText = "Scroll-down button";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a Artificial intelligence engineering student. I enjoy e creating automated learning systems with versatile practical applications, Additionally, I strive to learn more about artificial intelligence, particularly within the world of technology, to expand my expertise.";
+  "I'm a Artificial intelligence engineering student. I enjoy creating automated learning systems with versatile practical applications, Additionally, I strive to learn more about artificial intelligence, particularly within the world of technology, to expand my expertise.";
 
 /**
  * List of some of skills or technologies I work on, are learning,
@@ -82,7 +82,7 @@ const About = () => {
         <hr />
         <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
       </div>
-      <div id="section07" className="demo" style={{ position: 'absolute', bottom: '-3rem', left: '50%', transform: 'translateX(-50%)', zIndex: 1 }}>
+      <div id="Scroll_Down_B_S" className="S_D_B_S_C" style={{ position: 'absolute', bottom: '-3rem', left: '50%', transform: 'translateX(-50%)', zIndex: 1 }}>
         <a href="#education"><span></span><span></span><span></span></a>
       </div>
     </section>

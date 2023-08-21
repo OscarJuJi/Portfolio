@@ -1,8 +1,7 @@
 /**
  * Home component
  *
- * The section at the top of the page to display image of your
- * choice, name and title that describes your career focus.
+ * The section at the top of the page.
  */
 
 import React from "react";
@@ -13,7 +12,7 @@ import PropTypes from "prop-types";
  * Home background image
  *
  * Below is a sample image. 
- */
+ */ 
 import image from "../images/background.png";
 
 const imageAltText = "Scroll-down button";
@@ -26,7 +25,7 @@ const Home = ({ name, title }) => {
         <h1 style={{ marginBottom: "3rem"}}className="word">{name}</h1>
         <h2>{title}</h2>
       </div>
-      <div id="section07" className="demo" style={{ position: 'absolute', bottom: '-3rem', left: '50%', transform: 'translateX(-50%)', zIndex: 1 }}>
+      <div id="Scroll_Down_B_S" className="S_D_B_S_C" style={{ position: 'absolute', bottom: '-3rem', left: '50%', transform: 'translateX(-50%)', zIndex: 1 }}>
         <a href="#about"><span></span><span></span><span></span></a>
       </div>
     </section>
