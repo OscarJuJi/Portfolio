@@ -122,7 +122,7 @@ img.socialIcon {
   width: 30px;
 }
 
-.demo a {
+.S_D_B_S_C a {
   z-index: 2;
   color: #c0b8a6;
   letter-spacing: .1em;
@@ -136,15 +136,15 @@ img.socialIcon {
   transform: translate(0, -50%);
 }
 
-.demo a:hover {
+.S_D_B_S_C a:hover {
   opacity: .5;
 }
 
-#section07 a {
+#Scroll_Down_B_S a {
   padding-top: 80px;
 }
 
-#section07 a span {
+#Scroll_Down_B_S a span {
   width: 24px;
   height: 24px;
   opacity: 0;
@@ -159,16 +159,16 @@ img.socialIcon {
   transform: rotate(-45deg);
 }
 
-#section07 a span:nth-of-type(1) {
+#Scroll_Down_B_S a span:nth-of-type(1) {
   animation-delay: 0s;
 }
 
-#section07 a span:nth-of-type(2) {
+#Scroll_Down_B_S a span:nth-of-type(2) {
   animation-delay: .15s;
   top: 16px;
 }
 
-#section07 a span:nth-of-type(3) {
+#Scroll_Down_B_S a span:nth-of-type(3) {
   animation-delay: .3s;
   top: 32px;
 }

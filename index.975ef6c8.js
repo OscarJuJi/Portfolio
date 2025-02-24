@@ -27183,7 +27183,7 @@ const imageAltText_back = "purple and blue abstract background";
 const imageAltText = "Scroll-down button";
 /**
  * Sort description that expands on your title on the Home component.
- */ const description = "I'm a Artificial intelligence engineering student. I enjoy e creating automated learning systems with versatile practical applications, Additionally, I strive to learn more about artificial intelligence, particularly within the world of technology, to expand my expertise.";
+ */ const description = "I'm a Artificial intelligence engineering student. I enjoy creating automated learning systems with versatile practical applications, Additionally, I strive to learn more about artificial intelligence, particularly within the world of technology, to expand my expertise.";
 /**
  * List of some of skills or technologies I work on, are learning,
  * passionate about, or enjoy,
@@ -27296,8 +27296,8 @@ const About = ()=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                id: "section07",
-                className: "demo",
+                id: "Scroll_Down_B_S",
+                className: "S_D_B_S_C",
                 style: {
                     position: "absolute",
                     bottom: "-3rem",
@@ -28658,8 +28658,7 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 /**
  * Home component
  *
- * The section at the top of the page to display image of your
- * choice, name and title that describes your career focus.
+ * The section at the top of the page.
  */ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _downArrowSvg = require("../images/down-arrow.svg");
@@ -28684,7 +28683,7 @@ const Home = ({ name , title  })=>{
                 alt: "A simple web code"
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 24,
+                lineNumber: 23,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28705,25 +28704,25 @@ const Home = ({ name , title  })=>{
                         children: name
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 26,
+                        lineNumber: 25,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: title
                     }, void 0, false, {
                         fileName: "src/Components/Home.jsx",
-                        lineNumber: 27,
+                        lineNumber: 26,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 25,
+                lineNumber: 24,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                id: "section07",
-                className: "demo",
+                id: "Scroll_Down_B_S",
+                className: "S_D_B_S_C",
                 style: {
                     position: "absolute",
                     bottom: "-3rem",
@@ -28736,34 +28735,34 @@ const Home = ({ name , title  })=>{
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {}, void 0, false, {
                             fileName: "src/Components/Home.jsx",
-                            lineNumber: 30,
+                            lineNumber: 29,
                             columnNumber: 26
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {}, void 0, false, {
                             fileName: "src/Components/Home.jsx",
-                            lineNumber: 30,
+                            lineNumber: 29,
                             columnNumber: 39
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {}, void 0, false, {
                             fileName: "src/Components/Home.jsx",
-                            lineNumber: 30,
+                            lineNumber: 29,
                             columnNumber: 52
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/Components/Home.jsx",
-                    lineNumber: 30,
+                    lineNumber: 29,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
-                lineNumber: 29,
+                lineNumber: 28,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Home.jsx",
-        lineNumber: 23,
+        lineNumber: 22,
         columnNumber: 5
     }, undefined);
 };
@@ -28891,6 +28890,9 @@ const Portfolio = ()=>{
                         className: "container",
                         children: projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 className: "box",
+                                style: {
+                                    background: "#eeeedcaa"
+                                },
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                         href: project.url,
@@ -28972,17 +28974,21 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
  * Space for you to describe more about your Education.
  */ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _motionBackgroundJpg = require("../images/motion-background.jpg");
-var _motionBackgroundJpgDefault = parcelHelpers.interopDefault(_motionBackgroundJpg);
+var _eduBG2Jpg = require("../images/Edu_BG2.jpg");
+var _eduBG2JpgDefault = parcelHelpers.interopDefault(_eduBG2Jpg);
 const imageAltText = "purple and blue abstract background";
-const projectList = [
+const educationList = [
     {
-        title: "Faculty Management for the School of Computer Science",
-        description: "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started."
+        title: "Artificial Intelligence Engineering",
+        description: "Currently, I am pursuing a degree in artificial intelligence engineering at the 'Escuela Superior de Computo (ESCOM)', IPN. I am currently delving into machine learning models and deep learning algorithms. Furthermore, I have developed soft skills including teamwork, assertive communication, personal leadership, among others.(2021-2025)"
     },
     {
-        title: "Projects and assignments completed during my time at ESCOM",
-        description: "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught."
+        title: "Oracle next education",
+        description: "I actively participated in the Oracle Next Education course sponsored by Oracle. Through this program, I acquired essential skills that span various relevant areas: programming logic, front-end and back-end development, as well as entrepreneurship."
+    },
+    {
+        title: "Microsoft Learn AI Skills Challenge",
+        description: "Through this course, I obtained insights into Microsoft Azure cloud services, with a specific focus on practical applications of Machine Learning and Cognitive Services. Furthermore, I expanded my understanding of the lifecycle and documentation processes for artificial intelligence models."
     }, 
 ];
 const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -28991,11 +28997,11 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
-                src: (0, _motionBackgroundJpgDefault.default),
+                src: (0, _eduBG2JpgDefault.default),
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/Education.jsx",
-                lineNumber: 27,
+                lineNumber: 32,
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
@@ -29005,7 +29011,7 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                 children: "Education"
             }, void 0, false, {
                 fileName: "src/Components/Education.jsx",
-                lineNumber: 28,
+                lineNumber: 33,
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -29016,46 +29022,49 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                 },
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "container",
-                    children: projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    children: educationList.map((education)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                             className: "box",
+                            style: {
+                                background: "#eeeedcaa"
+                            },
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                     style: {
                                         flexBasis: "40px"
                                     },
-                                    children: project.title
+                                    children: education.title
                                 }, void 0, false, {
                                     fileName: "src/Components/Education.jsx",
-                                    lineNumber: 34,
+                                    lineNumber: 39,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                     className: "small",
-                                    children: project.description
+                                    children: education.description
                                 }, void 0, false, {
                                     fileName: "src/Components/Education.jsx",
-                                    lineNumber: 35,
+                                    lineNumber: 40,
                                     columnNumber: 13
                                 }, undefined)
                             ]
-                        }, project.title, true, {
+                        }, education.title, true, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 32,
+                            lineNumber: 37,
                             columnNumber: 11
                         }, undefined))
                 }, void 0, false, {
                     fileName: "src/Components/Education.jsx",
-                    lineNumber: 30,
+                    lineNumber: 35,
                     columnNumber: 7
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Education.jsx",
-                lineNumber: 29,
+                lineNumber: 34,
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                id: "section07",
-                className: "demo",
+                id: "Scroll_Down_B_S",
+                className: "S_D_B_S_C",
                 style: {
                     position: "absolute",
                     bottom: "-3rem",
@@ -29068,34 +29077,34 @@ const Education = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {}, void 0, false, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 41,
+                            lineNumber: 46,
                             columnNumber: 28
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {}, void 0, false, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 41,
+                            lineNumber: 46,
                             columnNumber: 41
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {}, void 0, false, {
                             fileName: "src/Components/Education.jsx",
-                            lineNumber: 41,
+                            lineNumber: 46,
                             columnNumber: 54
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/Components/Education.jsx",
-                    lineNumber: 41,
+                    lineNumber: 46,
                     columnNumber: 7
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Education.jsx",
-                lineNumber: 40,
+                lineNumber: 45,
                 columnNumber: 5
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Education.jsx",
-        lineNumber: 26,
+        lineNumber: 31,
         columnNumber: 3
     }, undefined);
 _c = Education;
@@ -29108,6 +29117,9 @@ $RefreshReg$(_c, "Education");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/motion-background.jpg":"kzNvo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/Edu_BG2.jpg":"gzfGm","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gzfGm":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "Edu_BG2.d0168e0e.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
 
 //# sourceMappingURL=index.975ef6c8.js.map
