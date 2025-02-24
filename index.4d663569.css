@@ -1,4 +1,18 @@
 @import "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap";
+.slide-in {
+  animation: slide-in .5s ease-out forwards;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
 body {
   height: 100%;
   width: 100%;
