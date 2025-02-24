@@ -6,14 +6,14 @@
  */
 import React from "react";
 
-import image from "../images/Edu_BG2.jpg";
+import image from "../images/background1.jpg";
 
 const imageAltText = "purple and blue abstract background";
 const educationList = [
   {
     title: "Artificial Intelligence Engineering",
     description:
-      "Currently, I am pursuing a degree in artificial intelligence engineering at the 'Escuela Superior de Computo (ESCOM)', IPN. I am currently delving into machine learning models and deep learning algorithms. Furthermore, I have developed soft skills including teamwork, assertive communication, personal leadership, among others.(2021-2025)",
+      "I am currently pursuing a degree in Artificial Intelligence Engineering at the Escuela Superior de Cómputo (ESCOM), IPN (2021-2025). My studies focus on machine learning models and deep learning algorithms. Additionally, I have developed strong soft skills, including teamwork, assertive communication, and personal leadership. (Jun-2025)" ,
   },
   {
     title: "Oracle next education",
@@ -30,14 +30,15 @@ const educationList = [
 const Education = () => (
   <section className="padding" id="education">
     <img className="background" src={image} alt={imageAltText} />
-    <h2 style={{ textAlign: "center" }}>Education</h2>
-    <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
+    <h2 style={{ textAlign: "center", color: "white"
+     }}>Education</h2>
+    <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem", paddingBottom:"3rem" , justifyContent: "center"}}>
       <div className="container">
         {educationList.map((education) => (
-          <div className="box" key={education.title} style={{background:"#eeeedcaa"}}>
+          <div className="box" key={education.title} style={{background:"rgba(238, 238, 220, 0.85)"}}>
             {/* <p>{education}</p> */}
             <h3 style={{ flexBasis: "40px" }}>{education.title}</h3>
-            <p className="small">{education.description}</p>
+            <p className="small" style={{ color:"#3d3d3d" }}>{education.description}</p>
           </div>
         ))}
       </div>

@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Oscar Antonio Juarez",
-  title: "FrontEndDeveloper & Artificial intelligence engineering student.",
+  title: "Full Stack Developer & Artificial intelligence engineering student.",
   email: "oscar.a.juarez.j@gmail.com",
   gitHub: "OscarJuJi",
   instagram: "",

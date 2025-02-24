@@ -7,7 +7,7 @@ import React from "react";
 /**
  * About background image
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/background1.jpg";
 import arrowSvg from "../images/down-arrow.svg";
 
 const imageAltText_back = "purple and blue abstract background";
@@ -56,6 +56,8 @@ const About = () => {
         style={{
           backgroundColor: "white",
           width: "50%",
+          borderRadius: "1rem",
+          
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
