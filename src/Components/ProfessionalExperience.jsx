@@ -1,6 +1,8 @@
 import React from "react";
 import image from "../images/background1.jpg"; // Background image for the section
 
+
+
 const experienceList = [
   {
     title: "Full-Stack Intern",
@@ -57,6 +59,9 @@ const ProfessionalExperience = () => {
             </ul>
           </div>
         ))}
+      </div>
+      <div id="Scroll_Down_B_S" className="S_D_B_S_C" style={{ position: 'absolute', bottom: '-3rem', left: '50%', transform: 'translateX(-50%)', zIndex: 1 }}>
+        <a href="#portfolio"><span></span><span></span><span></span></a>
       </div>
     </section>
   );

@@ -19,6 +19,11 @@ const educationList = [
     description:
       "Through this course, I obtained insights into Microsoft Azure cloud services, with a specific focus on practical applications of Machine Learning and Cognitive Services. Furthermore, I expanded my understanding of the lifecycle and documentation processes for artificial intelligence models.",
   },
+  {
+    title: "Google Cloud Career Launchpad",
+    description:
+      "Through the Google Cloud Computing Foundations Certificate and the Beginner: Introduction to Generative AI Learning Path, I gained knowledge in cloud architecture, infrastructure, and services using Google Cloud Platform (GCP). I also learned the fundamentals of generative AI, including neural networks, NLP, and image generation, exploring their practical applications.",
+  },
 ];
 
 const Education = () => (
@@ -86,7 +91,7 @@ const Education = () => (
           zIndex: 1,
         }}
       >
-        <a href="#portfolio">
+        <a href="#experience">
           <span></span><span></span><span></span>
         </a>
       </div>
