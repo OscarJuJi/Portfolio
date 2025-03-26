@@ -28667,8 +28667,8 @@ var _backgroundPng = require("../images/background.png");
 var _backgroundPngDefault = parcelHelpers.interopDefault(_backgroundPng);
 var _resumePdf = require("../../public/resume.pdf");
 var _resumePdfDefault = parcelHelpers.interopDefault(_resumePdf);
-var _cvPdf = require("../../public/cv.pdf");
-var _cvPdfDefault = parcelHelpers.interopDefault(_cvPdf);
+var _cv1Pdf = require("../../public/cv1.pdf");
+var _cv1PdfDefault = parcelHelpers.interopDefault(_cv1Pdf);
 var _reactPdf = require("react-pdf");
 const Home = ({ name , title  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -28688,7 +28688,7 @@ const Home = ({ name , title  })=>{
                 style: {
                     position: "absolute",
                     top: "5rem",
-                    left: "2rem",
+                    left: "5rem",
                     width: "90vw",
                     textAlign: "right",
                     color: "rgb(145,205,145)"
@@ -28737,7 +28737,7 @@ const Home = ({ name , title  })=>{
                                     display: "inline-block",
                                     padding: "1rem 2rem",
                                     marginTop: "15rem",
-                                    marginRight: "15rem",
+                                    marginRight: "14rem",
                                     textAlign: "center",
                                     alignItems: "center",
                                     justifyContent: "center",
@@ -28759,7 +28759,7 @@ const Home = ({ name , title  })=>{
                                 columnNumber: 9
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                href: (0, _cvPdfDefault.default),
+                                href: (0, _cv1PdfDefault.default),
                                 target: "_blank",
                                 rel: "noopener noreferrer",
                                 className: "button",
@@ -28767,7 +28767,7 @@ const Home = ({ name , title  })=>{
                                     display: "inline-block",
                                     padding: "1rem 2rem",
                                     marginTop: "15rem",
-                                    marginLeft: "20rem",
+                                    marginLeft: "auto",
                                     textAlign: "center",
                                     alignItems: "center",
                                     justifyContent: "center",
@@ -28864,7 +28864,7 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../images/background.png":"bwdkN","../../public/resume.pdf":"blsRb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-pdf":"klFwW","../../public/cv.pdf":"djElY"}],"bwdkN":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../images/background.png":"bwdkN","../../public/resume.pdf":"blsRb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-pdf":"klFwW","../../public/cv1.pdf":"fNvMW"}],"bwdkN":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "background.cc312e9e.png" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"blsRb":[function(require,module,exports) {
@@ -47620,7 +47620,7 @@ var __webpack_exports__setLayerDimensions = __webpack_exports__.setLayerDimensio
 var __webpack_exports__shadow = __webpack_exports__.shadow;
 var __webpack_exports__version = __webpack_exports__.version;
 
-},{"buffer":"fCgem","process":"d5jf4","f510fce9f626ace9":"jnOfo","de9ee526676c18e7":"jnOfo","ac8a385814755dc5":"jnOfo","61cebcf016cf41ac":"jnOfo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fCgem":[function(require,module,exports) {
+},{"process":"d5jf4","buffer":"fCgem","f510fce9f626ace9":"jnOfo","de9ee526676c18e7":"jnOfo","ac8a385814755dc5":"jnOfo","61cebcf016cf41ac":"jnOfo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fCgem":[function(require,module,exports) {
 /*!
  * The buffer module from node.js, for the browser.
  *
@@ -52424,8 +52424,8 @@ function Thumbnail(props) {
 }
 exports.default = Thumbnail;
 
-},{"react/jsx-runtime":"6AEwr","clsx":"gocd3","tiny-invariant":"fnIPv","./Page.js":"jZD5Y","./shared/utils.js":"a1B2d","./shared/hooks/useDocumentContext.js":"2m8XD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"djElY":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "cv.7ddfda97.pdf" + "?" + Date.now();
+},{"react/jsx-runtime":"6AEwr","clsx":"gocd3","tiny-invariant":"fnIPv","./Page.js":"jZD5Y","./shared/utils.js":"a1B2d","./shared/hooks/useDocumentContext.js":"2m8XD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fNvMW":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "cv1.c4be57ab.pdf" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lCaEt":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ed0d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -52801,7 +52801,7 @@ const experienceList = [
         company: "Banco de M\xe9xico",
         duration: "June 2024 – December 2024",
         description: [
-            "Played an integral role as a full-stack developer.",
+            "Played a role as a full-stack developer.",
             "Developed and maintained web applications using SQL, HTML, CSS, JSP, and JavaScript.",
             "Optimized application performance and user experience.",
             "Managed SQL databases to ensure data integrity and efficiency.", 
