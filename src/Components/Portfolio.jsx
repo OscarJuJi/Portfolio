@@ -39,16 +39,22 @@ const projectList = [
     url: "https://github.com/OscarJuJi",
   },
   {
-    title: "My Resume Site",
+    title: "HomeCraft. A desktop app for creating and editing independent 3D models for interior design and decoration.",
     description:
-      "Created from GitHub Education's project templates and deployed to GitHub pages. Includes my experience,education and design abilities.",
-    url: "https://oscarjuji.github.io/Portfolio/",
+      "HomeCraft is an AI-driven project that allows users to capture a video of their room, extract key frames, segment objects, apply inpainting, and generate a fully editable 3D model of their space. The goal is to enable seamless virtual home redesigns without physically modifying the real-world environment.",
+    url: "https://github.com/PhilipSanM/Homecraft",
   },
   {
     title: "A basic program featuring a graphical interface of identifying object contours and classifying",
     description:
       "This project was completed within a team setting for the digital image processing course. The aim was to create a Matlab program that could identify object edges in a natural setting image and, in a basic manner, classify them to ascertain the image's corresponding environment.",
-    url: "",
+    url: "https://github.com/OscarJuJi/object_contours_identifiying_and_classifying",
+  },
+  {
+    title: "My Resume Site",
+    description:
+      "Created from GitHub Education's project templates and deployed to GitHub pages. Includes my experience,education and design abilities.",
+    url: "https://oscarjuji.github.io/Portfolio/",
   },
 ];
 

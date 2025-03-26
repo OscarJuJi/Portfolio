@@ -4,14 +4,14 @@ import PropTypes from "prop-types";
 import image from "../images/background.png";
 
 import resume from "../../public/resume.pdf";
-import cv from "../../public/cv.pdf";
+import cv from "../../public/cv1.pdf";
 import {Document, Page, pdfjs} from 'react-pdf';
 
 const Home = ({ name, title }) => {
   return (
     <section id="home" className="min-height">
       <img className="background" src={image} alt="A simple web code" />
-      <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "90vw", textAlign: "right", color: "rgb(145,205,145)" }}>
+      <div style={{ position: "absolute", top: "5rem", left: "5rem", width: "90vw", textAlign: "right", color: "rgb(145,205,145)" }}>
         <div style={{height: "auto", position: "relative"}} >
         <h1 style={{ marginBottom: "3rem", }} className="word">{name}</h1>
         
@@ -30,7 +30,7 @@ const Home = ({ name, title }) => {
             display: "inline-block",
             padding: "1rem 2rem",
             marginTop: "15rem",
-            marginRight: "15rem",  
+            marginRight: "14rem",  
             textAlign: "center",
             alignItems: "center",
             justifyContent: "center",
@@ -61,7 +61,7 @@ const Home = ({ name, title }) => {
             display: "inline-block",
             padding: "1rem 2rem",
             marginTop: "15rem",
-            marginLeft: "20rem",  
+            marginLeft: "auto",  
             textAlign: "center",
             alignItems: "center",
             justifyContent: "center",

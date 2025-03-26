@@ -9,7 +9,7 @@ const experienceList = [
     company: "Banco de México",
     duration: "June 2024 – December 2024",
     description: [
-      "Played an integral role as a full-stack developer.",
+      "Played a role as a full-stack developer.",
       "Developed and maintained web applications using SQL, HTML, CSS, JSP, and JavaScript.",
       "Optimized application performance and user experience.",
       "Managed SQL databases to ensure data integrity and efficiency.",
