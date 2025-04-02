@@ -27184,6 +27184,7 @@ var _downArrowSvg = require("../images/down-arrow.svg"); // Flecha de scroll
 var _downArrowSvgDefault = parcelHelpers.interopDefault(_downArrowSvg);
 const imageAltText = "Scroll-down button";
 const description = "I'm an Artificial Intelligence Engineering student. I enjoy creating automated learning systems with versatile practical applications. Additionally, I strive to learn more about artificial intelligence, particularly within the world of technology, to expand my expertise.";
+// Listado de habilidades
 const skillsList = [
     "Artificial Intelligence",
     "Machine Learning & Deep Learning",
@@ -27206,8 +27207,35 @@ const skillsList = [
     "C#",
     "Matlab",
     "HTML, CSS & JS",
-    "typescript", 
+    "typescript",
+    "Docker", 
 ];
+// Mapeo de habilidades a sus logos
+const skillsIcons = {
+    "Artificial Intelligence": "https://img.icons8.com/color/100/artificial-intelligence.png",
+    "Machine Learning & Deep Learning": "https://img.icons8.com/?size=100&id=oOOSYZyuA844&format=png&color=000000",
+    "Natural Language Processing": "https://img.icons8.com/?size=100&id=sop9ROXku5bb&format=png&color=000000",
+    "Google Cloud Platform  & AI": "https://img.icons8.com/color/100/google-cloud.png",
+    "Data Science": "https://img.icons8.com/?size=100&id=xSkewUSqtErH&format=png&color=000000",
+    "Computer Vision & Image Processing": "https://img.icons8.com/?size=100&id=bpip0gGiBLT1&format=png&color=000000",
+    "Azure ML & Cognitive Services": "https://img.icons8.com/color/100/azure-1.png",
+    "Oracle SQL": "https://img.icons8.com/color/100/oracle-logo.png",
+    "Virtual Environments": "https://img.icons8.com/color/100/virtual-reality.png",
+    "API-REST Consumption": "https://img.icons8.com/color/100/api.png",
+    "Version Control (GitHub)": "https://img.icons8.com/fluency/100/github.png",
+    "Repository Management": "https://img.icons8.com/color/100/git.png",
+    "React": "https://img.icons8.com/color/100/react-native.png",
+    "Node.js & AJAX": "https://img.icons8.com/color/100/nodejs.png",
+    "PowerBI": "https://img.icons8.com/color/100/power-bi.png",
+    "Python": "https://img.icons8.com/color/100/python.png",
+    "Java": "https://img.icons8.com/color/100/java-coffee-cup-logo--v1.png",
+    "C++": "https://img.icons8.com/color/100/c-plus-plus-logo.png",
+    "C#": "https://img.icons8.com/color/100/c-sharp-logo.png",
+    "Matlab": "https://img.icons8.com/?size=100&id=r5Y16PcDkoWI&format=png&color=000000",
+    "HTML, CSS & JS": "https://img.icons8.com/color/100/html-5--v1.png",
+    "typescript": "https://img.icons8.com/color/100/typescript.png",
+    "Docker": "https://img.icons8.com/color/100/docker.png"
+};
 const detailOrQuote = "I am passionate about solving problems in new creative and efficient ways. I always seek challenges and opportunities that allow me to enhance my skills and knowledge in the field of artificial intelligence, in order to further enrich my professional experience.";
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
@@ -27243,7 +27271,7 @@ const About = ()=>{
                         children: "About Myself"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 70,
+                        lineNumber: 99,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27251,37 +27279,74 @@ const About = ()=>{
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 71,
+                        lineNumber: 100,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 72,
+                        lineNumber: 101,
                         columnNumber: 9
                     }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         style: {
+                            display: "grid",
+                            gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+                            gap: "1rem",
                             textAlign: "left",
-                            columns: 2,
-                            fontSize: "1.25rem",
-                            margin: "2rem 3rem",
-                            gap: "3rem"
+                            margin: "2rem 0"
                         },
-                        children: skillsList.map((skill)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: skill
-                            }, skill, false, {
+                        children: skillsList.map((skill)=>{
+                            const icon = skillsIcons[skill];
+                            return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                style: {
+                                    display: "flex",
+                                    alignItems: "center",
+                                    padding: "0.5rem",
+                                    border: "1px solid #444",
+                                    borderRadius: "0.5rem",
+                                    background: "rgba(255, 255, 255, 0.1)"
+                                },
+                                children: [
+                                    icon && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        src: icon,
+                                        alt: `${skill} logo`,
+                                        style: {
+                                            width: "40px",
+                                            height: "40px",
+                                            objectFit: "contain",
+                                            marginRight: "0.5rem"
+                                        }
+                                    }, void 0, false, {
+                                        fileName: "src/Components/About.jsx",
+                                        lineNumber: 130,
+                                        columnNumber: 19
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        style: {
+                                            fontSize: "1.1rem",
+                                            fontWeight: "bold"
+                                        },
+                                        children: skill
+                                    }, void 0, false, {
+                                        fileName: "src/Components/About.jsx",
+                                        lineNumber: 136,
+                                        columnNumber: 17
+                                    }, undefined)
+                                ]
+                            }, skill, true, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 83,
-                                columnNumber: 13
-                            }, undefined))
+                                lineNumber: 118,
+                                columnNumber: 15
+                            }, undefined);
+                        })
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 73,
+                        lineNumber: 104,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 86,
+                        lineNumber: 141,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27291,13 +27356,13 @@ const About = ()=>{
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 87,
+                        lineNumber: 142,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 58,
+                lineNumber: 87,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27316,34 +27381,34 @@ const About = ()=>{
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {}, void 0, false, {
                             fileName: "src/Components/About.jsx",
-                            lineNumber: 101,
+                            lineNumber: 157,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {}, void 0, false, {
                             fileName: "src/Components/About.jsx",
-                            lineNumber: 101,
-                            columnNumber: 24
+                            lineNumber: 158,
+                            columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {}, void 0, false, {
                             fileName: "src/Components/About.jsx",
-                            lineNumber: 101,
-                            columnNumber: 37
+                            lineNumber: 159,
+                            columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/Components/About.jsx",
-                    lineNumber: 100,
+                    lineNumber: 156,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 89,
+                lineNumber: 145,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 41,
+        lineNumber: 70,
         columnNumber: 5
     }, undefined);
 };
@@ -52463,24 +52528,9 @@ const imageAltText = "An image generated by an AI related to the portfolio of a 
  * links section.
  */ const projectList = [
     {
-        title: "Student Management System ",
-        description: "The student management system is a web-based platform developed collaboratively to streamline the enrollment process for new students and manage the courses assigned to teachers. The system ensures secure database management, input validation, and responsive design, enhancing user experience and data integrity. By implementing robust security measures and optimizing functionality, the platform provides an efficient and reliable solution for academic administration.",
-        url: "https://github.com/Ricardo8421/crujirepo"
-    },
-    {
-        title: "Projects and assignments completed during my time at ESCOM",
-        description: "This repository showcases a collection of projects and assignments completed during my time at ESCOM as part of the Artificial Intelligence Engineering program. The work reflects a broad range of skills—from data structures and software engineering to computer vision, neural networks, deep learning and various other topics.",
-        url: "https://github.com/OscarJuJi"
-    },
-    {
         title: "HomeCraft. A desktop app for creating and editing independent 3D models for interior design and decoration.",
         description: "HomeCraft is an AI-driven project that allows users to capture a video of their room, extract key frames, segment objects, apply inpainting, and generate a fully editable 3D model of their space. The goal is to enable seamless virtual home redesigns without physically modifying the real-world environment.",
         url: "https://github.com/PhilipSanM/Homecraft"
-    },
-    {
-        title: "A basic program featuring a graphical interface of identifying object contours and classifying",
-        description: "This project was completed within a team setting for the digital image processing course. The aim was to create a Matlab program that could identify object edges in a natural setting image and, in a basic manner, classify them to ascertain the image's corresponding environment.",
-        url: "https://github.com/OscarJuJi/object_contours_identifiying_and_classifying"
     },
     {
         title: "RAG ChatBot",
@@ -52488,9 +52538,24 @@ const imageAltText = "An image generated by an AI related to the portfolio of a 
         url: "https://github.com/JoseLuisMonroy/ISSI-Backend"
     },
     {
-        title: "My Resume Site",
-        description: "Created from GitHub Education's project templates and deployed to GitHub pages. Includes my experience,education and design abilities.",
+        title: "Genetic Algorithm Sudoku Solver",
+        description: "Developed a Genetic Algorithm capable of solving hard-level Sudoku puzzles 20% faster than some initial state-of-the-art approaches. The algorithm leverages evolutionary strategies, including selection, crossover, and mutation, to efficiently explore the solution space and optimize performance.",
         url: "https://oscarjuji.github.io/Portfolio/"
+    },
+    {
+        title: "Student Management System ",
+        description: "The student management system is a web-based platform developed collaboratively to streamline the enrollment process for new students and manage the courses assigned to teachers. The system ensures secure database management, input validation, and responsive design, enhancing user experience and data integrity. By implementing robust security measures and optimizing functionality, the platform provides an efficient and reliable solution for academic administration.",
+        url: "https://github.com/Ricardo8421/crujirepo"
+    },
+    {
+        title: "A basic program featuring a graphical interface of identifying object contours and classifying",
+        description: "This project was completed within a team setting for the digital image processing course. The aim was to create a Matlab program that could identify object edges in a natural setting image and, in a basic manner, classify them to ascertain the image's corresponding environment.",
+        url: "https://github.com/OscarJuJi/object_contours_identifiying_and_classifying"
+    },
+    {
+        title: "Projects and assignments completed during my time at ESCOM",
+        description: "This repository showcases a collection of projects and assignments completed during my time at ESCOM as part of the Artificial Intelligence Engineering program. The work reflects a broad range of skills—from data structures and software engineering to computer vision, neural networks, deep learning and various other topics.",
+        url: "https://github.com/OscarJuJi"
     }, 
 ];
 const Portfolio = ()=>{
