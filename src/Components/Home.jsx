@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import image from "../images/background.png";
 
 import resume from "../../public/resume.pdf";
-import cv from "../../public/curriculum.pdf";
+import cv from "../../public/cv.pdf";
 import {Document, Page, pdfjs} from 'react-pdf';
 
 const Home = ({ name, title }) => {

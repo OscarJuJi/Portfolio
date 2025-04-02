@@ -7,10 +7,12 @@ const imageAltText = "Scroll-down button";
 const description =
   "I'm an Artificial Intelligence Engineering student. I enjoy creating automated learning systems with versatile practical applications. Additionally, I strive to learn more about artificial intelligence, particularly within the world of technology, to expand my expertise.";
 
+// Listado de habilidades
 const skillsList = [
-  "Web design",
-  "Machine Learning",
-  "Deep Learning",
+  "Artificial Intelligence",
+  "Machine Learning & Deep Learning",
+  "Natural Language Processing",
+  "Google Cloud Platform  & AI",
   "Data Science",
   "Computer Vision & Image Processing",
   "Azure ML & Cognitive Services",
@@ -21,14 +23,44 @@ const skillsList = [
   "Repository Management",
   "React",
   "Node.js & AJAX",
-  "Anaconda",
+  "PowerBI",
   "Python",
   "Java",
   "C++",
   "C#",
   "Matlab",
   "HTML, CSS & JS",
+  "typescript",
+  "Docker",
+
 ];
+
+// Mapeo de habilidades a sus logos
+const skillsIcons = {
+  "Artificial Intelligence": "https://img.icons8.com/color/100/artificial-intelligence.png",
+  "Machine Learning & Deep Learning": "https://img.icons8.com/?size=100&id=oOOSYZyuA844&format=png&color=000000",
+  "Natural Language Processing": "https://img.icons8.com/?size=100&id=sop9ROXku5bb&format=png&color=000000",
+  "Google Cloud Platform  & AI": "https://img.icons8.com/color/100/google-cloud.png",
+  "Data Science": "https://img.icons8.com/?size=100&id=xSkewUSqtErH&format=png&color=000000",
+  "Computer Vision & Image Processing": "https://img.icons8.com/?size=100&id=bpip0gGiBLT1&format=png&color=000000",
+  "Azure ML & Cognitive Services": "https://img.icons8.com/color/100/azure-1.png",
+  "Oracle SQL": "https://img.icons8.com/color/100/oracle-logo.png",
+  "Virtual Environments": "https://img.icons8.com/color/100/virtual-reality.png",
+  "API-REST Consumption": "https://img.icons8.com/color/100/api.png",
+  "Version Control (GitHub)": "https://img.icons8.com/fluency/100/github.png",
+  "Repository Management": "https://img.icons8.com/color/100/git.png",
+  "React": "https://img.icons8.com/color/100/react-native.png",
+  "Node.js & AJAX": "https://img.icons8.com/color/100/nodejs.png",
+  "PowerBI": "https://img.icons8.com/color/100/power-bi.png",
+  "Python": "https://img.icons8.com/color/100/python.png",
+  "Java": "https://img.icons8.com/color/100/java-coffee-cup-logo--v1.png",
+  "C++": "https://img.icons8.com/color/100/c-plus-plus-logo.png",
+  "C#": "https://img.icons8.com/color/100/c-sharp-logo.png",
+  "Matlab": "https://img.icons8.com/?size=100&id=r5Y16PcDkoWI&format=png&color=000000",
+  "HTML, CSS & JS": "https://img.icons8.com/color/100/html-5--v1.png",
+  "typescript": "https://img.icons8.com/color/100/typescript.png",
+  "Docker" : "https://img.icons8.com/color/100/docker.png",
+};
 
 const detailOrQuote =
   "I am passionate about solving problems in new creative and efficient ways. I always seek challenges and opportunities that allow me to enhance my skills and knowledge in the field of artificial intelligence, in order to further enrich my professional experience.";
@@ -67,22 +99,49 @@ const About = () => {
         <h2>About Myself</h2>
         <p className="large">{description}</p>
         <hr />
-        <ul
+        {/* Grid de habilidades */}
+        
+        <div
           style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+            gap: "1rem",
             textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
+            margin: "2rem 0",
           }}
         >
-          {skillsList.map((skill) => (
-            <li key={skill}>{skill}</li>
-          ))}
-        </ul>
+          {skillsList.map((skill) => {
+            
+            const icon = skillsIcons[skill];
+            return (
+              
+              <div
+                key={skill}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  padding: "0.5rem",
+                  border: "1px solid #444",
+                  borderRadius: "0.5rem",
+                  background: "rgba(255, 255, 255, 0.1)",
+                }}
+              >
+                {icon && (
+                  <img
+                    src={icon}
+                    alt={`${skill} logo`}
+                    style={{ width: "40px", height: "40px", objectFit: "contain", marginRight: "0.5rem" }}
+                  />
+                )}
+                <span style={{ fontSize: "1.1rem", fontWeight: "bold" }}>{skill}</span>
+              </div>
+            );
+          })}
+        </div>
         <hr />
         <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
       </div>
+      
       <div
         id="Scroll_Down_B_S"
         className="S_D_B_S_C"
@@ -95,7 +154,9 @@ const About = () => {
         }}
       >
         <a alt={imageAltText} href="#education">
-          <span></span><span></span><span></span>
+          <span></span>
+          <span></span>
+          <span></span>
         </a>
       </div>
     </section>
