@@ -27092,10 +27092,10 @@ var _professionalExperienceDefault = parcelHelpers.interopDefault(_professionalE
  * If you don't have one of the social sites listed, leave it as an empty string.
  */ const siteProps = {
     name: "Oscar Antonio Juarez",
-    title: "Full Stack Developer & Artificial intelligence engineer",
+    title: "Full Stack Developer & Artificial Intelligence Engineer",
     email: "oscar.a.juarez.j@gmail.com",
     gitHub: "OscarJuJi",
-    instagram: "",
+    instagram: "Oscar_JuJi",
     linkedIn: "oscar-antonio-juarez-jimenez-7979a6287",
     medium: "",
     twitter: "",
@@ -52888,8 +52888,8 @@ const experienceList = [
         company: "Banco de M\xe9xico",
         duration: "June – December 2024",
         description: [
-            "•	Optimized performance and improved the user experience by enhancing the interface and backend using SQL, HTML, CSS, Java, JSP, and JavaScript.",
-            "•	Managed SQL databases, ensuring data integrity, security, and efficiency.", 
+            "•	Boosted system performance by 30% by optimizing SQL queries and reducing algorithmic complexity in Java/JavaScript, while enhancing UX through a streamlined, intuitive interface.",
+            "•	Optimized SQL database management by enforcing integrity and security via normalization, stored procedures, views, indexing, and role-based access control.", 
         ]
     }, 
 ];
