@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "A digital Portfolio",
   "source": "src/index.html",
-  "homepage": "http://OscarJuJi.github.io/Portfolio",
+  "homepage": "http://OscarJuJi.github.io",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://OscarJuJi.github.io/Portfolio'",
+    "build-gh": "parcel build --public-url 'https://OscarJuJi.github.io'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },

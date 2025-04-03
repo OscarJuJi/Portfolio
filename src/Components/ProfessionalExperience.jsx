@@ -7,12 +7,11 @@ const experienceList = [
   {
     title: "Full-Stack Intern",
     company: "Banco de México",
-    duration: "June 2024 – December 2024",
+    duration: "June – December 2024",
     description: [
-      "Played a role as a full-stack developer.",
-      "Developed and maintained web applications using SQL, HTML, CSS, JSP, and JavaScript.",
-      "Optimized application performance and user experience.",
-      "Managed SQL databases to ensure data integrity and efficiency.",
+      "•	Boosted system performance by 30% by optimizing SQL queries and reducing algorithmic complexity in Java/JavaScript, while enhancing UX through a streamlined, intuitive interface.",
+      "•	Optimized SQL database management by enforcing integrity and security via normalization, stored procedures, views, indexing, and role-based access control.",
+      
     ],
   },
 ];

@@ -32,6 +32,11 @@ const skillsList = [
   "HTML, CSS & JS",
   "typescript",
   "Docker",
+  "Django",
+  "FastAPI",
+  "OpenAI API",
+  "Pytorch",
+  "Visual Studio",
 
 ];
 
@@ -45,7 +50,7 @@ const skillsIcons = {
   "Computer Vision & Image Processing": "https://img.icons8.com/?size=100&id=bpip0gGiBLT1&format=png&color=000000",
   "Azure ML & Cognitive Services": "https://img.icons8.com/color/100/azure-1.png",
   "Oracle SQL": "https://img.icons8.com/color/100/oracle-logo.png",
-  "Virtual Environments": "https://img.icons8.com/color/100/virtual-reality.png",
+  "Virtual Environments": "https://img.icons8.com/?size=100&id=F4uMFPZgS0gt&format=png&color=000000",
   "API-REST Consumption": "https://img.icons8.com/color/100/api.png",
   "Version Control (GitHub)": "https://img.icons8.com/fluency/100/github.png",
   "Repository Management": "https://img.icons8.com/color/100/git.png",
@@ -60,6 +65,11 @@ const skillsIcons = {
   "HTML, CSS & JS": "https://img.icons8.com/color/100/html-5--v1.png",
   "typescript": "https://img.icons8.com/color/100/typescript.png",
   "Docker" : "https://img.icons8.com/color/100/docker.png",
+  "Django": "https://img.icons8.com/color/100/django.png",
+  "FastAPI": "https://img.icons8.com/?size=100&id=21888&format=png&color=000000",
+  "OpenAI API": "https://img.icons8.com/?size=100&id=ka3InxFU3QZa&format=png&color=000000",
+  "Pytorch": "https://img.icons8.com/?size=100&id=jH4BpkMnRrU5&format=png&color=000000",
+  "Visual Studio": "https://img.icons8.com/?size=100&id=ezj3zaVtImPg&format=png&color=000000",
 };
 
 const detailOrQuote =

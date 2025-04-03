@@ -26,10 +26,10 @@ import ProfessionalExperience from "./Components/ProfessionalExperience";
  */
 const siteProps = {
   name: "Oscar Antonio Juarez",
-  title: "Full Stack Developer & Artificial intelligence engineering student.",
+  title: "Full Stack Developer & Artificial Intelligence Engineer",
   email: "oscar.a.juarez.j@gmail.com",
   gitHub: "OscarJuJi",
-  instagram: "",
+  instagram: "Oscar_JuJi",
   linkedIn: "oscar-antonio-juarez-jimenez-7979a6287",
   medium: "",
   twitter: "",

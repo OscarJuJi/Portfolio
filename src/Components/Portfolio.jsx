@@ -46,6 +46,7 @@ const projectList = [
   },
   {
     title: "Student Management System ",
+    description: "We developed a student management system to streamline enrollment and optimize course assignments. By leveraging AJAX, Node.js, and Bootstrap, we improved system performance, enhanced security, and achieved seamless scalability.", 
     url: "https://github.com/Ricardo8421/crujirepo",
   },
   {
@@ -53,6 +54,8 @@ const projectList = [
     description:
       "This project was completed within a team setting for the digital image processing course. The aim was to create a Matlab program that could identify object edges in a natural setting image and, in a basic manner, classify them to ascertain the image's corresponding environment.",
     url: "https://github.com/OscarJuJi/object_contours_identifiying_and_classifying",
+  },
+  {
     title: "Projects and assignments completed during my time at ESCOM",
     description:
       "This repository showcases a collection of projects and assignments completed during my time at ESCOM as part of the Artificial Intelligence Engineering program. The work reflects a broad range of skills—from data structures and software engineering to computer vision, neural networks, deep learning and various other topics.",
