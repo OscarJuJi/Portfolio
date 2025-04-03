@@ -27092,7 +27092,7 @@ var _professionalExperienceDefault = parcelHelpers.interopDefault(_professionalE
  * If you don't have one of the social sites listed, leave it as an empty string.
  */ const siteProps = {
     name: "Oscar Antonio Juarez",
-    title: "Full Stack Developer & Artificial intelligence engineering student.",
+    title: "Full Stack Developer & Artificial intelligence engineer",
     email: "oscar.a.juarez.j@gmail.com",
     gitHub: "OscarJuJi",
     instagram: "",
